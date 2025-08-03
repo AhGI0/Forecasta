@@ -315,3 +315,9 @@
                 font-size: 4rem;
             }
         }
+
+        .footer{   
+            margin: 25px;  
+            text-align: center;
+            font-size: larger;
+        }
