@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CastSky</title>
+    <link rel="stylesheet" href="style.css">
+        
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🌤️ WeatherCast Pro</h1>
+            <p>Your Premium Weather Prediction Platform</p>
+        </div>
+
+        <div class="search-section">
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Enter city name (e.g., London, New York, Tokyo)" id="cityInput">
+                <button class="search-btn" onclick="searchWeather()">🔍 Search Weather</button>
+                <button class="location-btn" onclick="getCurrentLocation()">📍 Use My Location</button>
+            </div>
+        </div>
+
+        <div id="weatherContent"></div>
+    </div>
+    
+    <script src="./file.js">
+    </script>
+</body>
+</html>
